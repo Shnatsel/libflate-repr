@@ -1,0 +1,8 @@
+[package]
+name = "libflate-afl"
+version = "0.1.0"
+authors = ["Sergey \"Shnatsel\" Davidoff <shnatsel@gmail.com>"]
+
+[dependencies]
+libflate = {git = "https://github.com/Shnatsel/libflate"}
+afl = "0.3"
